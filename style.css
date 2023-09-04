@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(135deg, rgb(0, 60, 85), rgb(44, 119, 0));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+}
+.container {
+  margin: 5rem;
+}
+.container .heading {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+}
+.container .heading h1 {
+  margin-left: 2rem;
+}
+.container .heading img {
+  height: 100%;
+}
+.create-notes {
+  display: flex;
+  height: 3rem;
+  padding: 0.5rem 0;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgb(255, 170, 0), rgb(255, 68, 0));
+  max-width: 20rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.create-notes img {
+  height: 1.8rem;
+  margin-right: 1rem;
+}
+.note-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: black;
+  padding: 3rem;
+  margin-bottom: 2rem;
+}
+label {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem;
+}
+textarea {
+  border: none;
+  outline: none;
+  margin: 0.1rem 1rem;
+}
+li img {
+  width: 3rem;
+  margin: 1rem 0 0 1rem;
+  display: inline-block;
+}
+@media (max-width: 450px) {
+  :root {
+    font-size: 50%;
+  }
+}
